@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414EF7CA1794A7C5008E4FA0 /* TwitterLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414EF7C91794A7C5008E4FA0 /* TwitterLoginViewController.m */; };
+		414EF7CC1794ABB7008E4FA0 /* FirebaseSimpleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414EF7CB1794ABB7008E4FA0 /* FirebaseSimpleLogin.framework */; };
 		7163F2F81775110400498E9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7163F2F71775110400498E9D /* UIKit.framework */; };
 		7163F2FA1775110400498E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7163F2F91775110400498E9D /* Foundation.framework */; };
 		7163F2FC1775110400498E9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7163F2FB1775110400498E9D /* CoreGraphics.framework */; };
@@ -83,6 +85,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		414EF7C81794A7C5008E4FA0 /* TwitterLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginViewController.h; sourceTree = "<group>"; };
+		414EF7C91794A7C5008E4FA0 /* TwitterLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLoginViewController.m; sourceTree = "<group>"; };
+		414EF7CB1794ABB7008E4FA0 /* FirebaseSimpleLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseSimpleLogin.framework; sourceTree = "<group>"; };
 		7163F2F41775110400498E9D /* Beam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7163F2F71775110400498E9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7163F2F91775110400498E9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -190,6 +195,7 @@
 				7163F34A177532FB00498E9D /* QuartzCore.framework in Frameworks */,
 				7163F348177532F500498E9D /* MobileCoreServices.framework in Frameworks */,
 				7163F346177532EE00498E9D /* libz.1.1.3.dylib in Frameworks */,
+				414EF7CC1794ABB7008E4FA0 /* FirebaseSimpleLogin.framework in Frameworks */,
 				7163F344177532E600498E9D /* CoreLocation.framework in Frameworks */,
 				7163F2FC1775110400498E9D /* CoreGraphics.framework in Frameworks */,
 				7163F33C1775324700498E9D /* CFNetwork.framework in Frameworks */,
@@ -226,6 +232,7 @@
 		7163F2F61775110400498E9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				414EF7CB1794ABB7008E4FA0 /* FirebaseSimpleLogin.framework */,
 				71F0FB9417755323003ED89B /* FacebookSDKResources.bundle */,
 				71F0FB9217755304003ED89B /* FacebookSDK.framework */,
 				71F0FB8C1775426B003ED89B /* Accounts.framework */,
@@ -259,6 +266,8 @@
 				7163F31D177512C600498E9D /* AppDelegate.h */,
 				7163F31E177512C600498E9D /* AppDelegate.m */,
 				7163F31F177512C600498E9D /* MainStoryboard.storyboard */,
+				414EF7C81794A7C5008E4FA0 /* TwitterLoginViewController.h */,
+				414EF7C91794A7C5008E4FA0 /* TwitterLoginViewController.m */,
 				7163F320177512C600498E9D /* UsernameViewController.h */,
 				7163F321177512C600498E9D /* UsernameViewController.m */,
 				7163F322177512C600498E9D /* SplashViewController.h */,
@@ -453,6 +462,7 @@
 				7163F3041775110400498E9D /* main.m in Sources */,
 				7163F32E177512C600498E9D /* AppDelegate.m in Sources */,
 				7163F330177512C600498E9D /* UsernameViewController.m in Sources */,
+				414EF7CA1794A7C5008E4FA0 /* TwitterLoginViewController.m in Sources */,
 				7163F331177512C600498E9D /* SplashViewController.m in Sources */,
 				7163F332177512C600498E9D /* JoinViewController.m in Sources */,
 				7163F333177512C600498E9D /* LoginViewController.m in Sources */,
